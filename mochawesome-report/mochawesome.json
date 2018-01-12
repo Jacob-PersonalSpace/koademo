@@ -1,0 +1,117 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-01-12T06:04:12.413Z",
+    "end": "2018-01-12T06:04:18.986Z",
+    "duration": 6573,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "78cacafa-ccad-4a20-aa6f-5ae61717abc3",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "c26d0fd8-35e5-42cc-830f-da26713afb27",
+        "title": "GET /api/test",
+        "fullFile": "D:\\MyPersonalProject\\koademo\\test\\routers\\test2.test.js",
+        "file": "\\test\\routers\\test2.test.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "case resolve",
+            "fullTitle": "GET /api/test case resolve",
+            "timedOut": false,
+            "duration": 3046,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "return request.get('/api/test').expect(200).then(function (response) {\n    (0, _chai.expect)(1).to.equal(1);\n});",
+            "err": {},
+            "isRoot": false,
+            "uuid": "5aa2496b-11d9-4627-8393-5744343d3357",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "5aa2496b-11d9-4627-8393-5744343d3357"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 3046,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 15000
+      },
+      {
+        "uuid": "b20b9646-8188-4229-9e64-1c1ec3f08626",
+        "title": "GET /api/test2",
+        "fullFile": "D:\\MyPersonalProject\\koademo\\test\\routers\\test2.test.js",
+        "file": "\\test\\routers\\test2.test.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "case resolve",
+            "fullTitle": "GET /api/test2 case resolve",
+            "timedOut": false,
+            "duration": 3008,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "return request.get('/api/test2').expect(200).then(function (response) {\n    (0, _chai.expect)(1).to.equal(1);\n});",
+            "err": {},
+            "isRoot": false,
+            "uuid": "518ee0f7-8f84-4dd2-817f-9fc3e4a0b726",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "518ee0f7-8f84-4dd2-817f-9fc3e4a0b726"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 3008,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 15000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 15000
+  },
+  "copyrightYear": 2018
+}

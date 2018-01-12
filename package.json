@@ -1,0 +1,30 @@
+{
+  "name": "koademo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Jacob-PersonalSpace/koademo.git",
+  "author": "GFG1\\fengjac <fengjac@esquel.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2"
+  },
+  "scripts": {
+    "start": "nodemon src/app.js --exec babel-node",
+    "build": "babel src -d dist",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-runtime": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "mochawesome": "^3.0.1",
+    "nodemon": "^1.14.11",
+    "supertest": "^3.0.0"
+  }
+}
