@@ -1,0 +1,8 @@
+{
+  "name": "koademo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Jacob-PersonalSpace/koademo.git",
+  "author": "GFG1\\fengjac <fengjac@esquel.com>",
+  "license": "MIT"
+}
